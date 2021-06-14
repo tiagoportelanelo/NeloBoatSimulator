@@ -44,14 +44,14 @@ def get_avg_speed():
 @app.route('/api/destination/distance', methods=['GET'])
 def get_destination_distance():
     '''return real speed'''
-    return json.dumps({'distance_distance_destination': round(random.uniform(0, 100), 2)
+    return json.dumps({'distance_destination': round(random.uniform(0, 100), 2)
                        })
 
 
 @app.route('/api/destination/compass', methods=['GET'])
 def get_destination_compass():
     '''return real speed'''
-    return json.dumps({'distance_compass_destination': round(random.uniform(0, 360), 2)
+    return json.dumps({'compass_destination': round(random.uniform(0, 360), 2)
                        })
 
 
