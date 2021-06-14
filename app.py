@@ -97,6 +97,13 @@ def get_hr_max():
                        })
 
 
+@app.route('/api/hr', methods=['GET'])
+def get_hr():
+    '''return real speed'''
+    return json.dumps({'hr': round(random.uniform(0, 5), 2)
+                       })
+
+
 @app.route('/api/hr/avg', methods=['GET'])
 def get_hr_avg():
     '''return real speed'''
