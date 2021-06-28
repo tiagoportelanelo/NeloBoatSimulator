@@ -1,7 +1,7 @@
 # NeloBoatSimulator
 
-- [x] Lista de Serviços
-- [ ] GPS Speed
+## Lista de Serviços
+- GPS Speed
 - Real Speed
 - Distance per stroke
 - Distance to destination
